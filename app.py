@@ -134,7 +134,7 @@ def AdminPage():
     admin = Admin.query.filter_by(username="admin").first()
     if not admin:
         print("No admin account found. Creating a new one...")
-        fixed_password = 'KardWars06'
+        fixed_password = ''
         hashed_password = bcrypt.generate_password_hash(fixed_password).decode('utf-8')
         newAdmin = Admin(username="admin", password=hashed_password, rank=0)
         db.session.add(newAdmin)
@@ -142,7 +142,7 @@ def AdminPage():
         print(f"Admin account created! Username: admin, Password: {fixed_password}")
     else:
         print("Admin account already exists. Resetting password...")
-        fixed_password = 'KardWars06'
+        fixed_password = ''
         hashed_password = bcrypt.generate_password_hash(fixed_password).decode('utf-8')
         admin.password = hashed_password
         db.session.commit()
