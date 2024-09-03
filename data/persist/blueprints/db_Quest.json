@@ -1,5 +1,5 @@
 [
-	{"QuestID":"1","League":"League1","LevelName":"!!QUEST_1_NAME","Opponent":"Leader_JakeKing","SetLoadout":"MAIN_L1_Q1","LevelPrefab":"Inn_BG","BoardPrefab":"GameBoard_TreeFort","PortraitBg":"TreeFort","VSIcon":"Icon_VS_Forest","BGM":"Music_TreeHouse","XP":"20","Stamina":"1"},
+	{"QuestID":"1","League":"League1","LevelName":"!!QUEST_1_NAME","Opponent":"Leader_JakeKing","SetLoadout":"MAIN_L1_Q1","LevelPrefab":"Inn_BG","BoardPrefab":"GameBoard_TreeFort","PortraitBg":"TreeFort","VSIcon":"Icon_VS_Forest","BGM":"Music_TreeHouse","XP":"20","Stamina":"0"},
 	{"QuestID":"2","LevelName":"!!QUEST_2_NAME","Opponent":"Leader_JakeKing","SetLoadout":"MAIN_L1_Q2","LevelPrefab":"Inn_BG","BoardPrefab":"GameBoard_TreeFort","PortraitBg":"TreeFort","VSIcon":"Icon_VS_Forest","BGM":"Music_TreeHouse","XP":"79","Stamina":"1","CustomAI":"Quest_002"},
 	{"QuestID":"3","League":"League2","LevelName":"!!QUEST_3_NAME","Opponent":"Leader_Finn","SetLoadout":"MAIN_L2_Q1","LevelPrefab":"Badlands_BG","BoardPrefab":"GameBoard_Badlands","PortraitBg":"Badlands","VSIcon":"Icon_VS_Forest","BGM":"Music_Badlands","XP":"162","Stamina":"2"},
 	{"QuestID":"4","LevelName":"!!QUEST_4_NAME","Opponent":"Leader_Finn","SetLoadout":"MAIN_L2_Q2","LevelPrefab":"Badlands_BG","BoardPrefab":"GameBoard_Badlands","PortraitBg":"Badlands","VSIcon":"Icon_VS_Forest","BGM":"Music_Badlands","XP":"264","Stamina":"2"},
